@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: Japon;
+    src: url(fuentes/Zenzai\ Itacha.ttf);
+}
+body{
+    background-image: url(https://c.tenor.com/9J4ubEzZqeEAAAAd/japan-aesthetic.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav img {
+    width: 50px;
+    height: 50px;
+}
+.Titulo {
+    text-align: center;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: red;
+    padding: 5px;
+    width: 100%;
+    text-align:center;
+    font-family: 'Press Start 2P', cursive;
+    border: 3px solid goldenrod;
+    text-decoration:none;
+}
+.Barra a{
+    color: gold;
+}
+.Barra a:hover{
+    color: red;
+    background-color: gold;
+    border: 3px solid red;
+}
+.info{
+    display: flex;
+}
+.Texto {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: whitesmoke;
+    font-family: 'Koulen', cursive;
+}
+.Texto p{
+    text-align: center;
+    font-size: 50px;
+}
+.Carrousel{
+    margin: 5%;
+    padding-left: 10px;
+}
+.Carrousel p{
+    color: gold;
+}
+.Carrousel h5{
+    color: goldenrod;
+}
+footer{
+    display: grid;
+    
+} 
+.Redes{
+    border: 3px solid gold;
+    padding: 30px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Redes li{
+    grid-template-rows: 20px;
+    grid-template-columns: 200px 200px 200px;
+    border: 3px solid gold;
+    padding: 20px;
+}
+footer img{
+    width: 70px;
+}
+.Siguenos{
+    background-color: red;
+    color: gold;
+    border: 3px solid gold;
+    text-align: center;
+    font-size: 50px;
+    font-family: Japon;
+}
+.Siguenos p{
+    padding: 20px;
+}

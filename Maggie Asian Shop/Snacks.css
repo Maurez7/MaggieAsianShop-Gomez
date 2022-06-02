@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(https://cutewallpaper.org/25/anime-snack-wallpaper/1000-images-about-anime-food-trending-on-we-heart-it.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav img {
+    width: 50px;
+    height: 50px;
+}
+.Titulo {
+    text-align: center;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    padding: 5px;
+    width: 100%;
+    text-align:center;
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgb(105, 8, 8);
+    border: 3px solid rgb(192, 145, 26);
+    text-decoration:none;
+}
+.Barra a{
+    color: gold;
+}
+.Barra a:hover{
+    color: rgb(105, 8, 8);
+    background-color: gold;
+}
+.Productos {
+    padding-top: 100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    color: gold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Productos img:hover{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+.productos{
+    text-align: center;
+}
+.productos td{
+    background-color: rgb(105, 8, 8);
+}
+.productos td:hover{
+    background-color: gold;
+    color: rgb(105, 8, 8);
+}
+footer{
+    display: grid;
+    
+} 
+.Redes{
+    border: 3px solid gold;
+    padding: 30px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Redes li{
+    grid-template-rows: 20px;
+    grid-template-columns: 200px 200px 200px;
+    border: 3px solid gold;
+    padding: 20px;
+}
+footer img{
+    width: 70px;
+}
+.Siguenos{
+    background-color: rgb(105, 8, 8);
+    color: gold;
+    border: 3px solid gold;
+    text-align: center;
+    font-size: 50px;
+    font-family: Japon;
+}
+.Siguenos p{
+    padding: 20px;
+}
